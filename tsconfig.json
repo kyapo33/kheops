@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "downlevelIteration": true,
+    "noFallthroughCasesInSwitch": true,
+    "typeRoots" : ["node_modules/@types", "src/types"]
+  },
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.tsx",
+    "./src/index.d.ts"
+  ],
+  "compileOnSave": true,
+  "types": [
+    "@emotion/react/types/css-prop",
+    "jest"
+  ],
+}
