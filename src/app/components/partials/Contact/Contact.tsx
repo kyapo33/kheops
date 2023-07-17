@@ -1,9 +1,5 @@
-import { Card, Grid, Paper, Stack, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material"
-import AccountBalanceOutlinedIcon from '@mui/icons-material/AccountBalanceOutlined';
+import { Grid, Paper, Stack, Table, TableBody, TableCell, TableContainer, TableRow, Typography } from "@mui/material"
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
-import BusinessOutlinedIcon from '@mui/icons-material/BusinessOutlined';
-import ComputerOutlinedIcon from '@mui/icons-material/ComputerOutlined';
-import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 
 const Contact = () => {
 
@@ -79,7 +75,7 @@ const Contact = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} display="flex" sx={{ alignItems: "center", justifyContent: "center" }}>
                     <Stack flexGrow={1}>
-                        <iframe src="https://maps.google.com/maps?q=rue%20de%20la%20m%C3%A9doquine%2C%20talence&t=m&z=12&output=embed&iwloc=near" style={{ border: 0 }} loading="lazy" height="688px" />
+                        <iframe src="https://maps.google.com/maps?q=rue%20de%20la%20m%C3%A9doquine%2C%20talence&t=m&z=12&output=embed&iwloc=near" style={{ border: 0 }} loading="lazy" height="688px" title="map" />
                     </Stack>
                 </Grid>
             </Grid>
