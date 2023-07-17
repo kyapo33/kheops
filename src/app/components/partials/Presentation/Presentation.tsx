@@ -10,7 +10,7 @@ const Presentation = () => {
                             <Stack component={Typography} fontWeight="bolder" fontSize="14px" letterSpacing="1px" textAlign="center">QUI SOMMES NOUS ?</Stack>
                         </Stack>
                         <Stack>
-                            <Stack component={Typography} fontWeight="bolder" fontSize="36px" sx={{ lineHeight: { xs: "75px", sm: "100px", md: "75px", lg: "200px" } }} lineHeight="100px" textAlign="center">DÉDIÉS À VOTRE ÉVOLUTION !</Stack>
+                            <Stack component={Typography} fontWeight="bolder" fontSize="36px" paddingTop="25px" paddingBottom="20px" textAlign="center">DÉDIÉS À VOTRE ÉVOLUTION !</Stack>
                         </Stack>
                         <Stack>
                             <Stack component={Typography} fontWeight="400" fontSize="18px" textAlign="center">Qu’il s’agisse d’entrepreneuriat, de gestion d’entreprise ou de projets personnels nécessitant un accompagnement personnalisé, nous nous assurons de répondre présent à tout moment.</Stack>
